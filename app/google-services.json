@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846426085948",
+    "firebase_url": "https://firecast-app-e0e7c.firebaseio.com",
+    "project_id": "firecast-app-e0e7c",
+    "storage_bucket": "firecast-app-e0e7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846426085948:android:e9bdf4e14294cd23",
+        "android_client_info": {
+          "package_name": "com.example.alessander.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846426085948-6nmcj77egsj11nthvh0ofiscediabcea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alessander.friendlychat",
+            "certificate_hash": "67a3f787b6081edad8710fce479ef2b7b601a50e"
+          }
+        },
+        {
+          "client_id": "846426085948-8ps2ulbbtmrpoqo7peqql4bpcec9afhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdsfQbrhr8McMGhsEqwmMNUqzqIdo4xwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846426085948-8ps2ulbbtmrpoqo7peqql4bpcec9afhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
