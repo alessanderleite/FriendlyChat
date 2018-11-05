@@ -265,6 +265,4 @@ public class MainActivity extends AppCompatActivity {
             mChildEventListener = null;
         }
     }
-
-
 }
