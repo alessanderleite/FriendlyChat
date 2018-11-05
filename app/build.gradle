@@ -34,7 +34,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.4' // Analytics
     implementation 'com.google.firebase:firebase-database:16.0.3' // Realtime Database
     implementation 'com.google.firebase:firebase-auth:16.0.4' // Authentication
-    implementation 'com.firebaseui:firebase-ui-auth:4.2.1'
+    implementation 'com.firebaseui:firebase-ui-auth:4.2.1' // Authentication
+    implementation 'com.google.firebase:firebase-storage:16.0.3' // Storage
 }
 
 apply plugin: 'com.google.gms.google-services'
