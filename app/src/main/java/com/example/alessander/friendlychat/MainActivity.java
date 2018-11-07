@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
+                    //verificar codigo com problemas
                     onSignedInInitialize(user.getDisplayName());
                 } else {
                     onSignedOutCleanup();
@@ -159,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+        mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         FirebaseRemoteConfigSettings configSettings = new FirebaseRemoteConfigSettings.Builder()
                 .setDeveloperModeEnabled(BuildConfig.DEBUG)
                 .build();
